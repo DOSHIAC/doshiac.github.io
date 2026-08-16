@@ -7,18 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <style>
- body {
-  margin: 0; /* Обнуляем отступы */
+#wrap {
+  min-height: 100%;
+}
+main {
+  padding-bottom: 100px;
+  /*Высота футера*/
+}
+footer {
+  margin-top: -100px;
+  /*Минус Высота футера*/
+  height: 100px;
+  /*Высота футера*/
 }
 
-.container {
-  display: flex; /* Создаем гибкую структуру */
-  flex-direction: column; /* Располагаем элементы вертикально */
-  min-height: 100vh; /* Минимальная высота равна высоте вьюпорта */
-}
-
-.footer {
-  margin-top: auto; /* Здесь вступает в действие магия Flexbox */
 }
  body {
     background-image: url('https://doshiac.neocities.org/Сайт-фон_1.gif');
