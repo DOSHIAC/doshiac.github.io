@@ -38,6 +38,11 @@ p {
         color: blue;
         text-align: center;
     }
+        .video-wrapper {
+  border: 3px solid #000; /* 3px толщина, #000 чёрный цвет */
+  display: inline-block; /* чтобы видео занимало место, как блочный элемент */
+  overflow: hidden; /* чтобы содержимое (видео) не обрезалось границей */
+}
 
   
             </style>
@@ -52,8 +57,10 @@ p {
 </object>
       </div>
   <div id="navigation">
-      <h1>Зелье | DELTARUNE Анимация</h1>
+    </div>
+    <div class="video-wrapper"> 
+        <h1>Зелье | DELTARUNE Анимация</h1>
     <video src="Дилдатрун(1)-compressed.mp4" width="720" height="480" controls></video>
- </div>
+    </div>
     </body>
 </html>
